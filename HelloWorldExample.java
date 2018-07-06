@@ -7,7 +7,7 @@ public class HelloWorldExample{
   public static void main(String args[]){
  
     /*
-    Use System.out.println() to print on console.
+this iis 
     */
     System.out.println("Hello World !");
   
