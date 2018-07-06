@@ -12,6 +12,14 @@ public class HelloWorldExample{
     System.out.println("Hello World !");
   
   }
+  
+  
+  void sub(){
+	  
+	  
+	      System.out.println("sub - Hello World !");
+	  
+  }
  
 }
  
