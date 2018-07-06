@@ -22,12 +22,12 @@ public class CalculateCircleAreaExample {
 			radius = Integer.parseInt(br.readLine());
 		}
 		//if invalid value was entered
-		catch(NumberFormatException ne)
+		catch(NumberFormatException x)
 		{
-			System.out.println("Invalid radius value" + ne);
+			System.out.println("Invalid radius value" + x);
 			System.exit(0);
 		}
-		catch(IOException ioe)
+		catch(IOException ioe,Exception e)
 		{
 			System.out.println("IO Error :" + ioe);
 			System.exit(0);
